@@ -1,7 +1,7 @@
 import type { AnswerRecord, RankRow } from './game';
 
 const DEMO_KEY = 'incca-industrial-alimentos-ranking-v1';
-const hasServerBackend = () => !location.hostname.endsWith('github.io');
+const hasServerBackend = () => import.meta.env.VITE_BACKEND_ENABLED === '1';
 export const isDemo = () => !hasServerBackend() || !navigator.onLine || localStorage.getItem('incca-force-demo') === '1';
 
 function demoRows(): RankRow[] {
