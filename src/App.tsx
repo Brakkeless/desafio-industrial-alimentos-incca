@@ -281,11 +281,12 @@ function Home({
       <div className="hero-copy">
         <p className="eyebrow">CORFERIAS 2026 · EXPERIENCIA INTERACTIVA</p>
         <h1>
-          Transforma alimentos, <em>optimiza procesos.</em>
+          Diseña la fábrica alimentaria <em>inteligente del futuro.</em>
         </h1>
         <p className="lead">
-          Diez decisiones que unen productividad, calidad e inocuidad. Descubre
-          cómo colaboran la Ingeniería Industrial y la Ingeniería de Alimentos.
+          Desarrolla una bebida de fruta desde la idea hasta su producción.
+          Descubre cómo colaboran Ingeniería Industrial, Ingeniería de Alimentos
+          e inteligencia artificial.
         </p>
         <div className="quick-stats">
           <span>
@@ -343,9 +344,9 @@ function Home({
           <span>10</span>
           <small>NIVELES</small>
         </div>
-        <div className="tech-label l1">PROCESOS</div>
-        <div className="tech-label l2">INOCUIDAD</div>
-        <div className="tech-label l3">CALIDAD</div>
+        <div className="tech-label l1">PROCESOS + DATOS</div>
+        <div className="tech-label l2">INOCUIDAD + IA</div>
+        <div className="tech-label l3">DECISIÓN HUMANA</div>
       </div>
     </section>
   );
@@ -495,12 +496,13 @@ function Finish({
       <div className="final-gear">◈</div>
       <p className="eyebrow">MISIÓN COMPLETADA</p>
       <h1>
-        Dos ingenierías, <em>un mismo propósito.</em>
+        Construiste una fábrica <em>inteligente y responsable.</em>
       </h1>
       <p className="lead">
-        La Ingeniería Industrial optimiza recursos y procesos; la Ingeniería de
-        Alimentos transforma materias primas con calidad e inocuidad. Juntas
-        diseñan sistemas productivos mejores.
+        Alimentos aseguró un producto seguro y de calidad; Industrial organizó
+        recursos, capacidad y producción. La IA ayudó a analizar datos y
+        anticipar problemas, pero las decisiones siguieron en manos del equipo
+        profesional.
       </p>
       <div className="result-grid">
         <article>
